@@ -1,0 +1,205 @@
+ *{
+	margin: 0px;
+	padding: 0px;
+	font-family: bold;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+height: 100%;
+}
+body{
+ height: 100%;
+	background-image: url('images/ba.jpeg');
+}
+section{
+	width:100%;
+	
+	overflow: hidden;
+	
+
+}
+.home{
+	width:100%;
+	height: 900px;
+	overflow: hidden;
+
+
+}
+
+
+img{
+	width: 100%;
+	height: 91%;
+	float: left;
+}
+.ins1{
+	/*width: 33.2%;*/
+	width: 100%;
+	position: absolute;
+	animation: 5s opp ;
+	animation: 4s k;
+	overflow: hidden;
+   
+}
+.ins2{
+	/*width: 33.2%;*/
+	width: 100%;
+	position: absolute;
+	animation: 10s opp infinite;
+	opacity: 0;
+	animation-delay: 3s;
+
+}
+.ins3{
+	/*width: 33.2%;*/
+	width: 100%;
+	position: absolute;
+	animation: 15s opp infinite;
+	opacity: 0;
+	animation-delay: 7s ;
+}
+/*.ins1,.ins2,.ins3:hover{
+transform: scale(1,1)}*/
+h1{
+	z-index: 2;
+	display: block;
+	position: absolute;
+	top: 200px ;
+	font-size: 50px;
+	margin-left: 10px;
+	overflow: hidden;
+     animation: chars 2s steps(20) ;
+    font-family: serif;
+     color: darkgray;
+     white-space: nowrap;
+
+}
+h2{
+	z-index: 2;
+	color: white;
+	position: absolute;
+	top: 260px ;
+	font-size: 50px;
+	margin-left: 30px ;
+	animation: opp 5s ;
+	color :darkgray;
+	font-family: serif;
+}
+
+.headers{
+	display: flex;
+	width: 100%;
+	height: 10%;
+	/*overflow: hidden;*/
+	position: fixed;
+	z-index: 5;
+	border-radius: 0px 0px 30px 0px ;
+   
+ justify-content: space-between;
+}
+ul{
+	list-style: none;
+
+}
+li{
+	float: left;
+	margin: 20px;
+	
+	margin-top: 50px;
+}
+a{
+	color: #5F6A6A;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: monospace;
+}
+body{
+	scroll-behavior: smooth;
+}
+.mythings{
+	border-radius: 50%;
+	min-width:100px;
+    max-width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.myinfo{
+	width:100%;
+	height: 100px;
+	background-color: black;
+    color: lightblue;
+    display: flex;
+    align-items: center;
+}
+.info{
+	width:80%;
+	height: 80px;
+	background-color: black;
+	color: darkgray;
+	border: darkgray solid 1px;
+	position: relative;
+	left:10%;
+	padding: 10px;
+	
+}
+.jjjj{
+	display: flex;
+    flex-wrap: wrap;
+	margin-top: 50px;
+	/*position: absolute;*/
+	/*top:1100px;*/
+	left:10%;
+	width: 1500px;
+	width:100%;
+	height: 200px;
+	
+	justify-content: space-between;
+justify-content: space-around;
+
+}
+
+.pp{
+	position: relative;
+	top:130px;
+	right:100px;
+}
+
+
+@keyframes opp {
+ 
+ 0%{
+ 	opacity: 0;
+ }
+ 100%{
+ 	opacity: 1;
+ }
+}
+@keyframes k{
+	0%{
+
+	}
+	100%{
+		transform: scale(1.5);
+		height: 80%;
+		width: 80%;
+	     
+}
+
+span{
+	color: gray;
+	font-size: 30px;
+	display: block;
+	min-height: 1%;
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+	
+}
+
+
+
